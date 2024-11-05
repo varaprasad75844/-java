@@ -1,0 +1,28 @@
+import java.io.*;
+ class Point2D{
+     int x,y;
+     Point2D(){
+        int x =0;
+         int y;
+     }
+     Point2D(int x,int y){
+         this.x = x;
+         this.y = y;
+     }
+ }
+ class Point3D extends Point2D{
+     int z = 0;
+     Point3D(){
+         super();
+         z = 0;
+     }
+     Point3D(int x,int y){
+         super(x,y);
+         this.z = z;
+     }
+ }
+ class SuperKeyWordAndConstructor{
+    public static void main(String args[]){
+        Point3D p3 = new Point3D();
+    }
+ }
